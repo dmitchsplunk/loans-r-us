@@ -16,6 +16,7 @@ spec:
       containers:
         - name: loanservice
           image: derekmitchell399/loanservice:v0.0.1
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
 ---
